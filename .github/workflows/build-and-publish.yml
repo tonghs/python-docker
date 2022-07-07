@@ -20,4 +20,4 @@ jobs:
           password: ${{ secrets.DOCKER_HUB_PASSWORD }}
 
       - name: Build and Push
-		run: cd python3.8 && make build && make publish
+        run: cd python3.8 && make build && make publish
